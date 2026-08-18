@@ -1,4 +1,4 @@
--- Write your PostgreSQL query statement below
+/* Write your T-SQL query statement below */
 SELECT p.product_id, p.new_price AS price
 FROM Products p
 WHERE p.change_date = (
